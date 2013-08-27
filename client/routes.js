@@ -1,8 +1,10 @@
 Router.map(function() {
     this.route('home', {
-        path: '/home'
+        path: '/',
+        template: 'home'
     });
     this.route('test', {
-        path: '/test'
+        path: '/test',
+        template: 'test'
     });
 });
